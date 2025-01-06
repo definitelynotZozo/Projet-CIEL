@@ -1,0 +1,20 @@
+/*
+ * Relay Shield - PC Power Control
+ * Turns on the relay for two seconds, then off for two seconds, repeatedly.
+ *
+ * Relay Shield transistor closes relay when D1 is HIGH
+ */
+
+const int relayPin = D1;
+const long interval = 500;  // pause for 500 ms
+
+void setup() {
+  pinMode(relayPin, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(relayPin, HIGH); // turn on relay with voltage HIGH
+  delay(interval);              // pause
+  digitalWrite(relayPin, LOW);  // turn off relay with voltage LOW
+  delay(interval);              // pause
+}

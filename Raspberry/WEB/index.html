@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://code.jquery.com/jquery-1.10.2.js" />
+        <link rel="stylesheet" href="theme.css">
+        <title>Accueil - RaspiPCConnect</title>
+    </head>
+
+    <body>
+        <nav>
+            <!--Dynamic navigation bar-->
+            <div id="nav-placeholder">
+
+            </div>
+
+            <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+            <!--End of dynamic navigation bar-->
+        </nav>
+
+        <main>
+            <h1>RaspiPCConnect</h1>
+            <h1><noscript>You need to enable JavaScript for this page to be able to work properly.</noscript></h1>
+            <div class="Stats-Accueil">
+                <h2>Statistiques</h2>
+                <p>client_hostname@ip-placeholder</p>
+                <p>Graphiques-placeholder</p>
+            </div>
+        </main>
+    </body>

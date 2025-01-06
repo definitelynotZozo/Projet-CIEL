@@ -1,0 +1,2 @@
+https://www.wemos.cc/en/latest/d1_mini_shield/relay.html
+https://github.com/wemos/D1_mini_Examples/blob/master/examples/04.Shields/Relay_Shield/Blink/Blink.ino
