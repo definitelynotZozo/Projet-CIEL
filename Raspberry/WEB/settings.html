@@ -30,8 +30,23 @@
             <div class="Settings">
                 <h2>Paramètres</h2>
                 <h3>Serveur WEB</h3>
+                <label for="ip-input">Port du serveur WEB :</label>
+                <input type="text" id="ip-input" name="ip-input" required minlength="1" maxlength="5" size="10" />
                 <h3>Réseau</h3>
+                <label for="ip-input">Adresse IP de l'hôte :</label>
+                <input type="text" id="ip-input" name="ip-input" required minlength="7" maxlength="15" size="10" />
+                <label for="ip-input">Masque de sous-réseau :</label>
+                <input type="text" id="ip-input" name="ip-input" required minlength="7" maxlength="15" size="10" />
                 <h3>Apparence</h3>
+                <label for="theme-select">Thème :</label>
+
+                <select name="themes" id="theme-select">
+                <option value="">--Veuillez choisir une option--</option>
+                <option value="light">Clair</option>
+                <option value="dark">Sombre</option>
+                </select>
+
+                <input type="submit" value="Enregistrer" />
             </div>
         </main>
     </body>
